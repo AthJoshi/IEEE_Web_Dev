@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles_custom.css">
+</head>
+<body>
+    <div class="container">
+        <div class="window">
+            <h1>Job Application (Web)</h1>
+            <form>
+                <div class="grid">
+                    <div class="grid-item">
+
+                        <label for="name">First Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter First Name">
+                    </div>
+
+                    <div class="grid-item">    
+                        <label for="last_name">Last Name</label>
+                        <input type="last_name" id="last_name" name="last_name" required placeholder="Enter Last Name">
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter Email">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <label for="Job_Role">Job Role</label>
+                        <select id="Job_Role" name="Job_Role" placeholder="Select Job Role">
+                            <option value="Frontend_Dev">Frontend Developer</option>
+                            <option value="Backend_Dev">Backend Developer</option>
+                            <option value="API_specialist">API Specialist</option>
+                            <option value="PR">PR Outreach Head</option>
+                            <option value="AI_ML">AI/ML Specialist</option>
+                        </select>
+                        
+                    </div>
+
+
+                    <div class="grid-item full-width">
+
+                        <label for="Address">Address</label>
+                        <textarea id="Address" name="Address" rows="5" columns="20" required placeholder="Enter Your Address"></textarea>
+                        
+                    </div>
+                    <br>
+
+
+                    <div class="grid-item">
+                        <label for="adhaar">City</label>
+                        <input type="text" id="city" name="city" required placeholder="Enter City name">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <label for="Pincode">Pincode</label>
+                        <input type="number" id="Pincode" name="Pincode" required placeholder="Enter Pincode">
+                    </div>
+
+
+                    <div class="grid-item">
+                        <label for="Date">Date</label>
+                        <input type="date" id="Date" name="Date" required placeholder="Select Date">
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="CV">Upload your CV</label>
+                        <input type="file" id="CV" name="CV" required placeholder="Upload file">
+                    </div>
+
+
+
+
+
+                        
+                </div>
+                <button type="submit">Apply Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
